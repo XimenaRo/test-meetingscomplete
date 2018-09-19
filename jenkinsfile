@@ -1,0 +1,22 @@
+#!groovy
+
+node {
+   // ------------------------------------
+   // -- STAGE: Compile
+   // ------------------------------------
+   stage 'Compile'
+
+ // -- Configura variables
+   echo 'Configurando variables'
+   def SCRIPT_HOME= "/home/developer/gds_api/bin"
+//   env.PATH = ${SCRIPT_HOME}:${env.PATH}"
+
+
+   // -- Download source from SCM
+   echo 'Downloading source from SCM'
+   checkout scm
+  
+   // -- Compiling
+   echo 'Compiling app'
+  sh  "${SCRIPT_HOME}/start-test.sh"
+}
