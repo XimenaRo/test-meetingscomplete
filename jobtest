@@ -1,0 +1,11 @@
+#!groovy
+
+node {
+   // ------------------------------------
+   // -- STAGE: Print Msj
+   // ------------------------------------
+   stage 'Print'
+
+// -- Print
+   echo 'Print message test'
+}
