@@ -1,6 +1,6 @@
 #!groovy
 
-node("gdvsv2test") { 
+node("gdsv2test") { 
 
    // ------------------------------------
    // -- STAGE: Print Msj
