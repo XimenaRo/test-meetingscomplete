@@ -7,6 +7,6 @@ node("gdsv2test") {
    // ------------------------------------
    stage 'Print'
 
-// -- Print
-   echo 'Print message test'
+// -- Execute command
+   sh "uname -a"
 }
