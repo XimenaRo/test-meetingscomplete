@@ -6,8 +6,8 @@ node {
    // ------------------------------------
    stage 'Compile'
 
- // -- Configura variables
-   echo 'Configurando variables'
+ // -- Configuring variables
+   echo 'Configuring variables'
    def SCRIPT_HOME= "/home/developer/gds_api/bin"
 //   env.PATH = ${SCRIPT_HOME}:${env.PATH}"
 
