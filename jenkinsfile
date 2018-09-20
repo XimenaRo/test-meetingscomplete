@@ -1,8 +1,8 @@
-node {(gdsv2test)
+node ('gdsv2test') {
    // ------------------------------------
    // -- STAGE: Compile
    // ------------------------------------
-   stage ('Compile'){
+   stage ('Compile')
 
  // -- Configuring variables
  //  echo 'Configuring variables'
@@ -17,6 +17,5 @@ node {(gdsv2test)
    // -- Compiling
   // echo 'Compiling app'
 //  sh  "${SCRIPT_HOME}/start-test.sh"
-  }
 
 }
